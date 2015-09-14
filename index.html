@@ -18,6 +18,7 @@
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
     <script src="script.js"></script>
+			<script src="Chart.js"></script>
 
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
@@ -29,7 +30,7 @@
 				<div class="inner">
 					<span class="icon major fa-rocket"></span>
 					<h1> <strong>AoCMM 2015 Solution</strong></h1>
-					<p>Solution by Sohan Vichare, Yash Tandon, Adiyan Kaul, Advith Gopinath.</p>
+					<p>Solution by Sohan Vichare, Yash Tandon, Adiyan Kaul, and Advith Gopinath.</p>
 					<ul class="actions">
 						<li><a href="#one" class="button scrolly">View Solution</a></li>
 					</ul>
@@ -51,8 +52,11 @@
               <button id="submit">Calculate </button>
 						</div>
 						<div class="6u$ 12u$(medium) important(medium)">
-							<span class="image fit" id="size"><p id="easy"> 00 </p><br><p id="em"> 00 </p><br><p id="m"> 00 </p><br><p id="mh"> 00 </p><br></br><p id="h"> 00 </p><br></br><p id="o">00</p> </span>
+							<span class="image fit" id="size"><p id="easy"> 00 </p><p id="em"> 00 </p><p id="m"> 00 </p><p id="mh"> 00 </p><p id="h"> 00 </p><p id="o">00</p> </span>
 						</div>
+						<div class="6u$ 12u$(medium) important(medium)">
+							<label>Number of Problems (drag chart to right to see all created charts)</label>
+							<canvas id="myChart" width="200"></canvas>
 					</div>
 				</div>
 			</section>

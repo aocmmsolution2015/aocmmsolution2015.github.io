@@ -49,12 +49,24 @@
 	}
 #size
 {
-	font-size: 3em;
+	font-size: 1.8em;
 }
 #answer
 {
 
 	line-height: normal;
+}
+
+#myChart
+{
+			width:0em;
+			height:15em;
+	    padding-left: 0;
+	    padding-right: 0;
+	    margin-left: auto;
+	    margin-right: auto;
+	    display: block;
+	    width: 900px;
 }
 /* Box Model */
 
